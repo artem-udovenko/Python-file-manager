@@ -1,0 +1,28 @@
+help []
+    Shows this document.
+cd [directory]
+    Changes the working directiry to specified folder.
+    You can use
+     -> cd ..
+    to go to superfolder.
+    You also can combine several directories to get the path:
+     -> cd ..\..\some_directory
+    *example for Windows
+copy [file]
+    Places a file on the clipboard. Can process relative or absolute path.
+paste []
+    Pastes a file from the clipboard to working directory.
+delete [file]
+    Removes a file. Can process relative or absolute path.
+exec [file]
+    Executes a file. Can process relative or absolute path.
+rename [path, new_name]
+    Renames a file by path. Can process relative or absolute path. Assign new_name including extension.
+prop [file]
+    Shows file properties: full name, size in bytes and date of creation. Can process relative or absolute path.
+buf-show []
+    Shows the absolute path to file in buffer.
+graph []
+    Shows tree structure of a directory during depth-first traversal.
+exit []
+    Finish program execution.
